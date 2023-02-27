@@ -12,24 +12,6 @@ var dojoDiv = document.querySelector("#the-dojo");
 var ninjaFound = document.querySelector("#ninja-found");
 var restartDiv = document.querySelector("#restart");
 
-//adds in 10 ninjas in random spots
-// function tenRandomNinjas(theDojo)  {
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     theDojo[Math.floor(Math.random() * theDojo.length)][Math.floor(Math.random() * theDojo.length)] = 9;
-//     return theDojo;
-// }
-
-// tenRandomNinjas();
-
 
 function tenRandomNinjas(dim)  {
     var max =11;
